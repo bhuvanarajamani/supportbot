@@ -6,6 +6,7 @@ module.exports = {
     "* 'where is googles headquarters?'\n" +
     "* 'who founded microsoft?'\n" +
     "* 'what is amazons website?'\n" +
+    "* 'goodbye - End this conversation'\n" +
     "\nOnce you ask a question about a company you can ask followup questions about the same company.",
     companyUnknown: "I don't know '%(company)s'. Pick a company from the list or say 'nevermind'.",
     companyMissing: "I can answer that first tell me what company you're interested in:",

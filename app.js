@@ -32,6 +32,12 @@ dialog.matches('Description', [askCompany, answerQuestion('description', prompts
 dialog.matches('Founders', [askCompany, answerQuestion('founders', prompts.answerFounders)]);
 dialog.matches('Website', [askCompany, answerQuestion('website', prompts.answerWebsite)]);
 
+dialog.matches('End', [
+    function(session){
+        session.endDialog("Global command that is available anytime:\n\n* goodbye - End this conversation.\n* help - Display help commands.");
+    }
+]);
+
 function askCompany(session, args, next) {
     var company;
     var entity = builder.EntityRecognizer.findEntity(args.entities, 'CompanyName');
