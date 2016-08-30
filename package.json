@@ -1,0 +1,29 @@
+{
+  "name": "supportbot",
+  "version": "1.0.0",
+  "description": "customer support bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhuvanarajamani/supportbot.git"
+  },
+  "keywords": [
+    "customer",
+    "support",
+    "bot",
+    "supportbot"
+  ],
+  "author": "Bhuvana Rajamani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhuvanarajamani/supportbot/issues"
+  },
+  "homepage": "https://github.com/bhuvanarajamani/supportbot#readme",
+  "dependencies": {
+    "botbuilder": "^3.2.3",
+    "restify": "^4.1.1"
+  }
+}
