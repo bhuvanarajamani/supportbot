@@ -69,6 +69,11 @@ function answerQuestion(field, answerTemplate) {
 }
 
 
+server.get('/', restify.serveStatic({
+ directory: __dirname,
+ default: '/index.html'
+}));
+
 /**
  * Sample data sourced from http://crunchbase.com on 3/18/2016
  */
